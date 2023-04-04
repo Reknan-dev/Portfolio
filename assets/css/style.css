@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  justify-content: space-around;
+  display: flex;
+  color: silver;
+  background: linear-gradient(to right,black,silver);
+  border-bottom: groove orange 1px;
+  height: auto;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+                                                              /* list */
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+} 
+
+.wrapper ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 8px 5px 8px;
+}
+
+.wrapper ul li a:hover {
+  color: orange;
+  flex: 1;
+  text-align: center;
+  transition: 0.5s;
+  background-color: black;
+  padding: 5px 8px 5px 8px;
+  border-radius: 4px;
+}
+
+.wrapper ul li {
+  padding: 5px 10px 5px 10px;
+  width: 110px;
+}
+
+                                                              /* Logo Name */
+
+.logo-container {
+  display: flex;
+  font-size: 35px;
+  width: 100%;
+  font-weight: lighter;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.job {
+  color: orange;
+}
+
+/* Social */
+
+.social-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 16px;
+}
+
+section {
+  display: flex;
+  grid-template-columns: 1fr 2fr;
+  position: relative;
+  padding: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-image: url("/assets/img/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+  word-break: break-word;                     
+}
+
+p {
+  color: silver;
+}
+
+h2 {
+  color: silver;
+}
+
+h5 {
+  color: orange;
+}
+
+main {
+  background: rgba(193, 164, 164, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px groove silver;
+  width: 90%;
+  max-width: 1440px;
+  position: relative;
+  margin: 160px auto 0 auto;    /*distribuisce spazio equo a destra e sinistra*/
+}
+
+button {
+  padding: 8px;
+  border: none;
+  background-color: silver;
+  color: black;
+  border-radius: 4px;
+  font-family: 'Raleway';
+  margin: 16px 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: orange;
+  color: black;
+}
+
+button:active {
+  background-color: orangered;
+}
+
+@media only screen and (min-width: 705px) and (max-width: 1023px) {
+  main {
+    margin-top: 100px;
+  }
+
+  .wrapper{
+    display: flex;
+  }
+
+  .wrapper ul {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .linkedin-icon, .facebook-icon, .github-icon, .instagram-icon {
+    width: 30px;
+  }
+
+  .linkedin-icon, .facebook-icon, .github-icon, .instagram-icon {
+    width: 30px;
+  }
+}
+ 
+@media only screen and (min-width: 0px) and (max-width: 704px) {
+
+  header {
+    background: silver;
+  }
+
+  .linkedin-icon, .facebook-icon, .github-icon, .instagram-icon {
+    width: 30px;
+  }
+  
+  .logo-container {
+    display: none;
+  }
+
+  .social-container {
+    display: none;
+  }
+
+  main {
+    margin-top: 100px;
+  }
+
+  .grid-container { 
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+ 
+
+
+
+
+
+ 
+  

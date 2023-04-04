@@ -1,0 +1,130 @@
+.image-profile-container {
+  background-color:rgba(255, 166, 0, 0.7);
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin: 0 auto 0 auto;
+  border-radius: 200px;
+}
+
+.profile {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 200px;
+}      
+
+.about {
+  margin-left: 20px;
+  flex: 2;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: bold;
+  color: silver;
+}
+
+.subtitle {
+  color: orange;
+  font-style: italic;
+}
+
+.skills-container {
+  max-width: 100%;
+  margin: 0 auto;
+  flex: 1;
+  align-items: center;
+}
+
+.skills {
+  background-color: black;
+  border-radius: 10px;
+  padding: 0 10px 10px 10px
+}
+
+.experience-container ul, .skills ul {
+  padding: 0;
+}
+
+.experience-container ul li, .skills ul li {
+  margin: 15px 0 0 0;
+  color: silver;
+  line-height: 20px;
+  font-size: 16px; 
+  list-style-type: none;
+}
+
+.description {
+  color: silver;
+  line-height: 25px;
+  width: 80%;
+  border-bottom: 1px groove silver;
+  padding-bottom: 20px;
+}
+
+.language {
+  display: flex;
+  justify-content: space-between;
+  color: silver;
+  margin-bottom: 5px;
+}
+
+.counter {
+  display: flex;
+  gap: 5px;
+}
+
+.silver {
+  width: 70px;
+  height: 15px;
+  background-color: orange;
+}
+
+.gray {
+  width: 70px;
+  height: 15px;
+  background-color: silver;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .info {
+    border-right: none;
+  }
+
+  .info-grid {
+    display: inline-block;
+  }
+
+  .about {
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 704px) {
+  .image-profile-container {
+    background-color:rgba(255, 166, 0, 0.7);
+    margin-top: 0;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .profile {
+    width: 300px;
+    height: 300px;
+  }   
+
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about {
+    position: relative;
+  }
+}

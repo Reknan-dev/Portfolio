@@ -1,0 +1,29 @@
+.dog-container {
+  margin: 30px 0 30px 0;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.sorry-dog {
+  position: absolute;
+  font-size: 30px;
+  top: 30px;
+  width: 400px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 630px) {
+  .card {
+    width: 100%;
+  }
+
+  .sorry-dog {
+    font-size: 20px;
+  }
+}

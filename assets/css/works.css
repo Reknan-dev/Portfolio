@@ -4,10 +4,11 @@
   color: black;
   display: flex;
   justify-content: center;
+  max-width: 100%;
 }
 
 .card {
-  width: 500px;
+  width: 50%;
   border-radius: 10px;
 }
 
@@ -15,15 +16,15 @@
   position: absolute;
   font-size: 30px;
   top: 30px;
-  width: 400px;
+  max-width: 50%;
+  padding: 10px 5px;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 630px) {
-  .card {
-    width: 100%;
-  }
+@media only screen and (min-width: 0px) and (max-width: 704px) {
 
-  .sorry-dog {
-    font-size: 20px;
-  }
+
+ .sorry-dog {
+  font-size: 15px;
+ }
 }
+

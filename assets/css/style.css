@@ -183,6 +183,10 @@ button:active {
     display: none;
   }
 
+  .wrapper {
+    font-size: 13px;
+  }
+
   main {
     margin-top: 100px;
   }

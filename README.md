@@ -1,7 +1,7 @@
 # Benedetto Caiazzo
 `Full Stack Developer`</br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=This+is+my+Porfolio)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=This+is+my+Portfolio)](https://git.io/typing-svg)
 
 
 <h3>Languages:<h3></br>

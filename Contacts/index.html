@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;700&display=swap" rel="stylesheet">
-  <script src="/assets/js/script.js" type="text/javascript"></script>
+  
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script type="text/javascript">
     (function () {
@@ -48,22 +48,22 @@
       <div class="social-container">
         <div class="icon">
           <a href="https://www.linkedin.com/in/benedetto-caiazzo-2ba997261/">
-            <img class="linkedin-icon" src="/assets/icon/linkedin.png">
+            <img class="linkedin-icon" src="/assets/icon/linkedin.png" alt="linkedin">
           </a>
         </div>
         <div class="icon">
           <a href="https://www.facebook.com/benedetto.caiazzo/">
-            <img class="facebook-icon" src="/assets/icon/facebook.png">
+            <img class="facebook-icon" src="/assets/icon/facebook.png" alt="facebook">
           </a>
         </div>
         <div class="icon">
           <a href="https://github.com/Reknan-dev">
-            <img class="github-icon" src="/assets/icon/github.png">
+            <img class="github-icon" src="/assets/icon/github.png" alt="github">
           </a>
         </div>
         <div class="icon">
           <a href="https://www.instagram.com/bene_detto_bene/">
-            <img class="instagram-icon" src="/assets/icon/instagram.png">
+            <img class="instagram-icon" src="/assets/icon/instagram.png" alt="instagram">
           </a>
         </div>
       </div>
@@ -79,7 +79,7 @@
         </div>
         <div class="contact-grid">
           <div class="linkedin-container">
-            <img class="linkedin" src="/assets/icon/linkedin-contact.png">
+            <img class="linkedin" src="/assets/icon/linkedin-contact.png" alt="linkedin-contact">
             <div class="linkedin-camp">
               <a href="https://www.linkedin.com/in/benedetto-caiazzo-2ba997261/">
                 www.linkedin.com/in/benedetto-caiazzo
@@ -87,7 +87,7 @@
             </div>
           </div>
           <div class="instagram-container">
-            <img class="instagram" src="/assets/icon/instagram-contact.png">
+            <img class="instagram" src="/assets/icon/instagram-contact.png" alt="instagram-contact">
             <div class="instagram-camp">
               <a href="https://www.instagram.com/bene_detto_bene/">
                 www.instagram.com/bene_detto_bene/
@@ -95,7 +95,7 @@
             </div>
           </div>
           <div class="facebook-container">
-            <img class="facebook" src="/assets/icon/facebook-contact.png">
+            <img class="facebook" src="/assets/icon/facebook-contact.png" alt="facebook-contact">
             <div class="facebook-camp">
               <a href="https://www.facebook.com/benedetto.caiazzo/">
                 www.facebook.com/benedetto.caiazzo/
@@ -103,7 +103,7 @@
             </div>
           </div>
           <div class="github-container">
-            <img class="github" src="/assets/icon/github-contact.png">
+            <img class="github" src="/assets/icon/github-contact.png" alt="github-contact">
             <div class="github-camp">
               <a href="https://github.com/Reknan-dev">
                 https://github.com/Reknan-dev
@@ -124,11 +124,11 @@
           </div>
           <div class="col">
             <label for="message">Message:</label><br />
-            <textarea rows="8" id="message"></textarea>
+            <textarea rows="8" id="message" required></textarea>
           </div>
         </div>
           <div class="btn">
-          <button onclick="SendMail()">Send</button>
+          <button id="sendMail">Send</button>
         </div>
       </form>
     </div>
@@ -137,5 +137,5 @@
     </div>
   </main>
 </body>
-
+<script src="/assets/js/script.js"></script>
 </html>

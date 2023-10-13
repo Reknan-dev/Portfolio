@@ -23,8 +23,7 @@
 <p>Sticky menu usable both from web and mobile, to be able to navigate within the portfolio or simply connect with my social channels.</p>
 
 <h2>Body</h2>
-<p>Sticky menu usable both from web and mobile, to be able to navigate within the portfolio or simply connect with my social channels.
-  Thanks to the small presentation video and the navigation grid, I let it less static.</p>
+<p>Thanks to the small presentation video and the navigation grid, I let it less static. </p>
   
 <h3>Conclusions</h3>
 I know this is not too much, but as I continue to study I will update the portfolio and become a better developer.
